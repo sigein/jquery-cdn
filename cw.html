@@ -1,0 +1,41 @@
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+  
+    <div class="lt-xbutton-main-wrapper" style="display: block;">
+        <div class="lt-xbutton">
+            <span class="lt-xbutton-flash lt-flash-left"></span>
+            <span class="lt-xbutton-flash lt-flash-right"></span>
+
+            <div class="lt-xbutton-dialler">
+                <div class="lt-xbutton-dialler-half half-left">
+                    <div class="lt-xbutton-dialler-pie pie-left"></div>
+                </div>
+                <div class="lt-xbutton-dialler-half half-right">
+                    <div class="lt-xbutton-dialler-pie pie-right"></div>
+                </div>
+            </div>
+
+            <div class="lt-xbutton-wrapper" id="xbutton-wrapper" style="cursor: pointer;">
+
+                <div class="lt-xbutton-icons" id="xbutton-close" style="cursor: pointer;">
+                    <i class="fa fa-phone lt-xbutton-phone-icon"></i>
+                    <i class="lt-xbutton-close-icon"></i>
+                </div>
+              <!--<div class="lt-xbutton-txt" id="timecalling">Мы перезвоним за 28 секунд.</div>-->
+                <form class="lt-xbutton-form-action" id="cw_form">
+                    <input type="text" id="cw_name" name="DATA[NAME]" placeholder="Введите имя" class="lt-xbutton-input1">
+                    <input type="text" id="cw_phone" name="DATA[PHONE_MOBILE]" placeholder="Введите ваш телефон" class="lt-xbutton-input">
+                    <p class="cw-inner-text" style="padding-top:0px!important;font-size:14pt;display:none;">
+                    Оставайтесь на связи. <br> Наш менеджер уже звонит вам!
+                    </p>
+
+                    <div class="lt-xbutton-bttn-wrap">
+                        <button class="lt-xbutton-bttn lt-xbutton_call" type="button" onclick="send_cw();">
+                            <span class="lt-xbutton-bttn-flur"></span><i class="fa fa-check"></i></button>
+                        <i class="lt-xbutton-close-icon"></i>
+                        <i class="lt-xbutton-call-recuest-icon"></i>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
